@@ -76,9 +76,7 @@ function searchTitle() {
     });
 }
 
-let allMovies = movies.map(movie => {
-    return displayMovie(movie);
-});
+movies.forEach(movie => displayMovie(movie));
 
 let genres = [];
 movies.forEach(movie => {
@@ -88,4 +86,4 @@ movies.forEach(movie => {
         }
     });
 });
-console.log(genres.sort());
+//console.log(genres.sort());
