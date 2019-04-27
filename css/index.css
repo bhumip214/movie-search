@@ -1,0 +1,20 @@
+header .row {
+  justify-content: center;
+}
+header .col-sm-8 {
+  text-align: center;
+}
+header .tab {
+  display: flex;
+  justify-content: center;
+}
+header .tab ul {
+  margin: 20px 30px;
+  cursor: pointer;
+}
+header .tab ul li:hover {
+  color: lightgray;
+}
+.jumbotron {
+  background-color: white;
+}
